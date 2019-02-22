@@ -1,0 +1,91 @@
+
+.zi-min {
+  z-index: -1000;
+}
+
+.zi-small {
+  z-index: 1;
+}
+
+.zi-medium {
+  z-index: 10;
+}
+
+.zi-big {
+  z-index: 1000;
+}
+
+.mg-top-18 {
+  margin-top: 18px;
+}
+
+.mg-top-24 {
+  margin-top: 24px;
+}
+
+.mg-top-60 {
+  margin-top: 60px;
+}
+
+
+.t-b-300 {
+  font-weight: 300;
+}
+
+.t-b-400 {
+  font-weight: 400;
+}
+
+.t-b-500 {
+  font-weight: 500;
+}
+
+.t-b-600 {
+  font-weight: 600;
+}
+
+.t-b-700 {
+  font-weight: 700;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.box-title {
+  border-left: 2px solid $color-gray;
+  padding-left: 18px;
+  font-size: 2rem;
+  font-weight: 700;
+
+  strong {
+    font-size: 2.5rem;
+    color: $color-yellow;
+  }
+
+  h1 {
+    color: $color-blue;
+  }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+}
+
